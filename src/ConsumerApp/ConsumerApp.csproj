@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <repository url="https://github.com/Vivek4Int/sample-services-lib" />
+	  <RepositoryUrl>https://github.com/Vivek4Int/sample-services-lib</RepositoryUrl>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Vivek4Int.SampleServices" Version="1.0.0" />
