@@ -1,11 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <repository url="https://github.com/Vivek4Int/sample-services-lib" />
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Vivek4Int.SampleServices" Version="1.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Vivek4Int.SampleServices" Version="1.0.0" />
+	</ItemGroup>
 </Project>
